@@ -43,11 +43,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01_Experto\Base\Informe.cs" />
+    <Compile Include="01_Experto\Base\InformePresentacion.cs" />
+    <Compile Include="01_Experto\Mejorada\Informe.cs" />
+    <Compile Include="01_Experto\Mejorada\InformePresentacion.cs" />
+    <Compile Include="02_Creador\V1\Cliente.cs" />
+    <Compile Include="02_Creador\V1\ListaDeClientePresentacion.cs" />
+    <Compile Include="02_Creador\V1\Pedido.cs" />
+    <Compile Include="03_Controlador\AlbumController.cs" />
+    <Compile Include="03_Controlador\Foto.cs" />
+    <Compile Include="03_Controlador\RepositorioFotos.cs" />
+    <Compile Include="04_FabricacionPura\Base\Venta.cs" />
+    <Compile Include="04_FabricacionPura\Mejorada\Venta.cs" />
+    <Compile Include="04_FabricacionPura\Mejorada\VentaPersistencia.cs" />
+    <Compile Include="05_Indireccion\Base\Log4Net.cs" />
+    <Compile Include="05_Indireccion\Base\Presentacion.cs" />
+    <Compile Include="05_Indireccion\Mejorada\Log4Net.cs" />
+    <Compile Include="05_Indireccion\Mejorada\ServicioLog.cs" />
+    <Compile Include="06_VariacionesProtegidas\Base\ImagenJpg.cs" />
+    <Compile Include="06_VariacionesProtegidas\Base\MostrarImagenController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
